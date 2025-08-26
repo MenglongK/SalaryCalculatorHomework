@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SalaryCaculation {
     private static final Scanner scan = new Scanner(System.in);
 
-    private static int getInteger(String label) {
+    public static int getInteger(String label) {
         do {
             try {
                 System.out.print(label + ": ");
